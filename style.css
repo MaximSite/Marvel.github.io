@@ -1,0 +1,239 @@
+@import url ('https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap');
+@media (max-width: 1520px) {
+    header {
+        background: url(1587216240_14-p-zadnie-foni-dlya-saitov-53.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 47%;
+    }
+
+    video {
+        display: none;
+    }
+
+    .ImgHeader1 {
+        display: none;
+    }
+
+    .ImgHeader3 {
+        display: none;
+    }
+
+    header {
+        text-align: center;
+        padding-left: 200px;
+    }
+
+    .ImgHeader2 {
+        width: 350px;
+        margin-left: 70px;
+    }
+
+    .H1Header {
+        font-family: Roboto, sans-serif;
+        font-size: 50px;
+        color: white;
+        margin-left: 70px;
+    }
+
+    .H2Header {
+        font-family: Roboto, sans-serif;
+        font-size: 40px;
+        color: white;
+        margin-left: 70px;
+    }
+}
+
+header {
+    height: 753px;
+}
+
+video {
+    position: absolute;
+    top: -102px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+body {
+    margin: 0px;
+}
+
+.ImgHeader1 {
+    width: 470px;
+    position: absolute;
+    top: 70px;
+    right: 170px;
+}
+
+.ImgHeader2 {
+    width: 350px;
+    position: absolute;
+    top: 70px;
+    left: 250px;
+}
+
+.H1Header {
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 90px;
+}
+
+.H2Header {
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 285px;
+    left: 135px;
+}
+
+.ImgHeader3 {
+    width: 130px;
+    position: absolute;
+    left: 43%;
+    top: 585px;
+}
+
+.ImgHeader3:hover {
+    animation-name: cursor;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes cursor{
+    0%, 100% {
+        position: absolute;
+        left: 43%;
+        top: 585px;
+    }
+    
+    50% {
+        position: absolute;
+        left: 43%;
+        top: 615px;
+    }
+}
+
+h1, p, h2, h3 {
+    font-family: Roboto, sans-serif;
+}
+
+main {
+    z-index: 1;
+    min-height: 1000px;
+    background: url('1579335677_1-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+main > div {
+    display: inline-block;
+    height: 300px;
+    transition: transform 0.3s;
+}
+
+main > div > a > img{
+    width: 540px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px
+}
+
+.PDiv{
+    width: 526px;
+    height: 80px;
+    background: #ffb300;
+    position: relative;
+    left: 30px;
+    bottom: 86px;
+    font-family: Roboto,sans-serif;
+    font-size: 30px;
+    padding-left: 15px;
+    text-align: left;
+    transition: box-shadow 0.4s;
+}
+
+main > div:hover .PDiv{
+    box-shadow: 10px 22px 23px -17px black;
+}
+
+main > div > a > div > p {
+    position: relative;
+    top: 14px;
+    color: white;
+}
+
+main > div:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+footer {
+    min-height: 300px;
+    padding: 20px;
+    background: #4a4a4a;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer > img {
+    width: 200px;
+}
+
+footer > hr {
+    height: 1px;
+    background: white;
+}
+
+.whatsapp {
+    transition: 0.5s;
+    margin-left: 500px;
+}
+
+.whatsapp:hover {
+    border-radius: 100%;
+    background: green;
+}
+
+.snapchat {
+    transition: 0.5s;
+    margin-left: 600px;
+}
+
+.snapchat:hover {
+    border-radius: 100%;
+    background: yellow;
+}
+
+.youtube {
+    transition: 0.5s;
+}
+
+.youtube:hover {
+    border-radius: 100%;
+    background: red;
+}
+
+.facebook {
+    transition: 0.5s;
+}
+
+.facebook:hover {
+    border-radius: 100%;
+    background: blue;
+}
+
+.imgf {
+    width: 100px;
+}
