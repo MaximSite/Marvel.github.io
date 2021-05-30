@@ -1,0 +1,66 @@
+body {
+    margin-right: 80px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    background: url(https://images.wallpaperscraft.ru/image/zvezdnoe_nebo_zvezdy_chernyj_174007_1280x1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+section > img {
+    float: left;
+    margin-left: 50px;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    text-align: left;
+    font-size: 30px;
+    position: absolute;
+    top: 120px;
+    left: 420px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+hr {
+    width: 1px;
+    height: 425px;
+    background: white;
+    position: absolute;
+    top: 105px;
+    left: 390px;
+}
+
+section > p {
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    left: 65px;
+    top: 120px;
+}
+
+main {
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 50px;
+    
+}
+
+h2 {
+    font-size: 35px;
+}
+
+main > p {
+    font-size: 18px;
+}

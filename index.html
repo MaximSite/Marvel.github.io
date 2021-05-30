@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pngwing1.com.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <header id="top">
+       <video autoplay muted loop src="Black%20-%2013495.mp4"></video>
+        <img class="ImgHeader1" src="pngwing.com.png" alt="">
+        <img class="ImgHeader2" src="pngwing1.com.png" alt="">
+        <h1 class="H1Header">«Мстители, общий сбор!»</h1>
+        <h2 class="H2Header">Наслаждайтесь просмотром<br>
+                            лучших фильмов в мире!!!</h2>
+        <a class="AHeader" href="#main"><img class="ImgHeader3" src="pngwing3.com.png" alt=""></a>
+    </header>
+    <main id="main">
+        <h1>Самые лучшие фильмы Marvel</h1>
+        <div>
+           <a href="Avengers.html">
+            <img src="mstiteli-voyna-beskonechnosti-3840x2160-mstiteli-voyna-beskonechnosti-17937.jpg" alt="">
+            <div class="PDiv"><p>Фильм "Мстители"</p></div>
+            </a>    
+        </div>
+        <div>
+           <a href="guards.html">
+            <img src="straji-galaktiki-2-3840x2160-gamora-zoi-saldana-enot-luchshie-filmi-11657.jpg" alt="">
+            <div class="PDiv"><p>Фильм "Стражи галактики"</p></div>
+            </a>
+        </div>
+        <div>
+           <a href="xmen.html">
+            <img src="lyudi-iks-temniy-feniks-3840x2160-lyudi-iks-temniy-feniks-17310.jpg" alt="">
+            <div class="PDiv"><p>Фильм "Люди-Икс"</p></div>
+            </a>
+        </div>
+        <div>
+           <a href="black.html">
+            <img src="chernaya-pantera-3840x2160-chernaya-pantera-17476.jpg" alt="">
+            <div class="PDiv"><p>Фильм "Чёрная пантера"</p></div>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <img src="pngwing1.com.png" alt="">
+        <hr>
+        <a href="https://www.snapchat.com/add/marvelhq">
+            <img class="snapchat imgf" src="snapchat.png">
+        </a>
+        <a href="http://youtube.com/marvel">
+            <img class="youtube imgf" src="youtube.png">
+        </a>
+        <a href="http://facebook.com/marvel">
+            <img class="facebook imgf" src="facebook.png">
+        </a>
+    </footer>
+</body>
+</html>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>

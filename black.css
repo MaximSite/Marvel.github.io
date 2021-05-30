@@ -1,0 +1,66 @@
+body {
+    margin-right: 80px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614405269_9-p-fon-dlya-teksta-odnotonnii-temnii-11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+section > img {
+    float: left;
+    margin-left: 30px;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    text-align: left;
+    font-size: 30px;
+    position: absolute;
+    top: 120px;
+    left: 500px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+hr {
+    width: 1px;
+    height: 395px;
+    background: white;
+    position: absolute;
+    top: 105px;
+    left: 470px;
+}
+
+section > p {
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    left: 65px;
+    top: 120px;
+}
+
+main {
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 30px;
+    
+}
+
+h2 {
+    font-size: 35px;
+}
+
+main > p {
+    font-size: 18px;
+}
