@@ -1,2 +1,2 @@
-# Marvel.github.io
+# MaximSite.github.io
 First hosting
