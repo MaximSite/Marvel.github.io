@@ -44,6 +44,13 @@
     }
 }
 
+copy {
+    color: white;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+
 header {
     height: 753px;
 }
